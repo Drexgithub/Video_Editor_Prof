@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Editor | Portfolio</title>
+    <meta name="description" content="Professional Video Editor portfolio showcasing high-end commercial, music, and documentary videos.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Den Tamayo Video Editor Logo"></a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="works.html">My Works</a></li>
+                <li><a href="index.html#contact" class="btn-primary nav-btn">Connect with Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <!-- The background image is set via CSS, but we can also use an img tag for better SEO or lazy loading if needed. We'll use CSS background for the hero for overlay effects. -->
+        <div class="hero-bg" style="background-image: url('assets/images/coffee_camera_bg_1775053605285.png');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content reveal-up">
+            <h2 class="hero-subtitle">Visual Storytelling</h2>
+            <h1 class="hero-title">Crafting <br><span class="highlight text-gradient">Cinematic</span> Experiences</h1>
+            <p class="hero-description">I am a professional video editor specializing in music videos, commercials, and documentaries. Transforming raw footage into compelling narratives.</p>
+            <div class="hero-cta">
+                <a href="works.html" class="btn-primary">My Works</a>
+                <a href="#contact" class="btn-secondary">Connect with Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Bio Image & Text Section -->
+    <section class="section bio-section" id="bio" style="background-color: var(--bg-color-alt); padding: 100px 0;">
+        <div class="container reveal-up">
+            <div class="bio-wrapper">
+                <div class="bio-text">
+                    <p class="bio-highlight"><strong>Helping businesses and creators turn raw footage into engaging, professional video content. Based in the Philippines. Working with clients worldwide.</strong></p>
+                    <hr class="bio-divider">
+                    <p class="bio-description">Hi, I'm Denrro, a passionate video editor who loves turning raw footage into compelling stories. Whether it's a heartfelt moment, a brand message, or a creative project, I bring attention to detail, emotion, and storytelling to every edit.</p>
+                    <div class="bio-signature-container">
+                        <span class="cursive-signature">Den Tamayo</span>
+                    </div>
+                </div>
+                <div class="bio-image-container">
+                    <img src="assets/images/denrro_portrait.png" alt="Den Tamayo" class="portrait-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services / Skills Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-heading reveal-up">
+                <h2>My <span class="highlight">Arsenal</span></h2>
+                <p>Bringing stories to life with industry-leading tools and techniques.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal-up" style="transition-delay: 100ms;">
+                    <h3>Color Grading</h3>
+                    <p>Creating mood and emotion through advanced color science in DaVinci Resolve.</p>
+                </div>
+                <div class="skill-card reveal-up" style="transition-delay: 200ms;">
+                    <h3>Motion Graphics</h3>
+                    <p>Dynamic visual effects, title design, and compositing with After Effects.</p>
+                </div>
+                <div class="skill-card reveal-up" style="transition-delay: 300ms;">
+                    <h3>Narrative Editing</h3>
+                    <p>Precision storytelling and seamless pacing using Premiere Pro and Final Cut.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper glass-panel reveal-up">
+                <div class="contact-text">
+                    <h2>Let's build something <br><span class="highlight text-gradient">extraordinary.</span></h2>
+                    <p>Have a project in mind? Reach out to discuss how we can work together to bring your vision to life.</p>
+                    <div class="contact-methods">
+                        <p><strong>Email:</strong> <a href="mailto:hello@videoeditor.co">hello@videoeditor.co</a></p>
+                        <p><strong>Studio:</strong> 124 Cinematic Ave, LA, CA</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="4" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Video Editor Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Vimeo</a>
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>

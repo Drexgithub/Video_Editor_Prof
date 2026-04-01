@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works | Video Editor Portfolio</title>
+    <meta name="description" content="A comprehensive gallery of my professional video editing work.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific adjustments for internal pages */
+        .internal-page-header {
+            padding-top: 150px;
+            padding-bottom: 50px;
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg-color-main) 0%, var(--bg-color-alt) 100%);
+        }
+        .filter-controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--glass-border);
+            color: var(--text-muted);
+            padding: 8px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            font-family: var(--font-body);
+            font-weight: 600;
+        }
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--accent-color);
+            color: #000;
+            border-color: var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="Den Tamayo Video Editor Logo"></a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="works.html" style="color: var(--text-main);">My Works</a></li>
+                <li><a href="index.html#contact" class="btn-primary nav-btn">Connect with Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="internal-page-header">
+        <div class="container">
+            <h1 class="hero-title reveal-up">All <span class="highlight text-gradient">Works</span></h1>
+            <p class="hero-description reveal-up" style="transition-delay: 100ms; margin: 0 auto;">A complete archive of everything I've edited, from raw cuts to final deliverables.</p>
+        </div>
+    </header>
+
+    <!-- Work Gallery Section -->
+    <section class="section" style="padding-top: 50px;">
+        <div class="container">
+            <div class="portfolio-grid" style="gap: 40px;">
+                <!-- Video 1 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/H99LjoKl9ZQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/1PBeJ2rwxsE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 4 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/np-NnGoKK0k?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 5 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/g3scJEHDqdo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 6 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/eKI15o__hgg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 7 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/M-nOPRu86oY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 8 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/sUPz7ZFQz8g?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 9 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/hQ8SA9WvCz8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 10 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/rcCLG8scQWA?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 11 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/RvoR7mKiKnk?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 12 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/TUsjXvj_whE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <!-- Video 13 -->
+                <div class="portfolio-item reveal-up portfolio-iframe-wrapper">
+                    <iframe loading="lazy" src="https://www.youtube.com/embed/6ShaYoIY3Kw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px;" class="reveal-up">
+                <a href="index.html#contact" class="btn-primary">Ready to collaborate?</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Video Editor Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Vimeo</a>
+                <a href="#">YouTube</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
